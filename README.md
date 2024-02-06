@@ -10,12 +10,8 @@
   <p align="center">
     One bot that does it all!
     <br />
-    <a href="https://drive.google.com/drive/folders/1GCVpS-n3Cwb81qfl302VCN4rVFZyaDVV?usp=sharing"><strong>Explore the demo here »</strong></a>
+    <a href="[https://drive.google.com/drive/folders/1GCVpS-n3Cwb81qfl302VCN4rVFZyaDVV?usp=sharing](https://drive.google.com/drive/u/1/folders/1XS2EpwlMpqkJEAUbCQ5qEctlo0mntaVH)"><strong>Explore the demo here »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/issues">Request Feature</a>
   </p>
 </div>
 
@@ -66,7 +62,6 @@ The core idea is to  add innovative features with a limited hardware which solve
 
 This a boon for all the working parents out there who are looking for a reliable solution to their process of setting up a balance between parenting and work. We know how a parent wants the best for their child and is ready to spend any amount of money to establish an amazing future for them, but here, with our bot, we provide them with all the necessary help in the best quality while taking care of their pockets!
 
-<p align="right">(<a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/blob/main/README.md">back to top</a>)</p>
 
 ## About the project
 We built our own vacuum cleaning household bot entirely from scratch using SolidWork and did various testing like airflow simulation,stress analysis guaranteeing its functionality in the real world. For navigation we used differential drive along with ROS Navigation stack and implemented 3 algorithms for Autonomus Mapping,Autonomus Navigation and Autonomus Optimal Complete Coverage.Also we implemented Resnet and YoloV3 Algorithms for Baby Monitoring.Threat Detection and Face Recognition.
@@ -79,7 +74,6 @@ The technologies used while building and testing the project are:
 * [SolidWorks](https://www.solidworks.com/)
 
 
-<p align="right">(<a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/blob/main/README.md">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -101,7 +95,7 @@ Now that you're ready with the prerequisites, setup the project using the follow
 
 ```
 cd catkin_ws/src
-git clone https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot
+git clone https://github.com/garvit-001/Multi-Purpose-HouseBot.git
 catkin build ./
 ```
 
@@ -109,7 +103,6 @@ To launch bot in household environment run
 ```
 roslaunch rbot house.launch 
 ```
-<p align="right">(<a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/blob/main/README.md">back to top</a>)</p>
 
 ## Hardware
 The CAD model of the bot was created using Solidworks. Further, an URDF file was created using the model considering the motion along all the links which were to be controlled and simulated using ROS. The bot’s vacuum system is based on a centrifugal pump. Centrifugal pump is a machine that imparts energy to fluid. This energy can cause a fluid to flow or rise to a higher level. It consists of two basic parts: The rotary element or impeller and the stationary element or casing.
@@ -136,7 +129,6 @@ b.Stress analysis (FEA-finite element analysis): To ensure that the main body or
 
 
 
-<p align="right">(<a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/blob/main/README.md">back to top</a>)</p>
 
 
 ## Navigation
@@ -163,7 +155,6 @@ We used Differential Drive along with ROS Navigation Stack on our Bot to autonom
  ```
 Find the demo of Navigation implementation [here](https://drive.google.com/file/d/1GFb-_O2ioxu-zdwylFPfyHNaHDGUox7V/view)
 
-<p align="right">(<a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/blob/main/README.md">back to top</a>)</p>
 
 ## Features
 
@@ -202,7 +193,7 @@ Find the demo of Face Detection algorithm implementation [here](https://drive.go
 <img width="641" alt="ros3" src="https://user-images.githubusercontent.com/78342516/152424816-6c31d4d6-59c6-4d9f-8395-a29e82bfba5b.PNG">
 
 
-Find the demo of Threat Detection for baby  [here](https://drive.google.com/file/d/1K5NE13m8MZG6SAx4-36VjofmkLH4Blgi/view)
+Find the demo of Threat Detection for baby  [here]([https://drive.google.com/file/d/1K5NE13m8MZG6SAx4-36VjofmkLH4Blgi/view](https://drive.google.com/drive/u/1/folders/1mNB2utfslTE_0MTLDTFolfh3qi0K0lbE))
 
 ### Baby Following
 
@@ -220,10 +211,9 @@ For launching this mode run following command-
  rosrun yolo cmd_vel_robot.py
  ```
 
-Find the demo of baby following [here](https://drive.google.com/file/d/1PfKwm_F6846Q7xqnyYsZGxO27Yt6TJu2/view?usp=sharing)
+Find the demo of baby following [here](https://drive.google.com/drive/u/1/folders/13J7HrOEjdEvlf8cPgNA4rgw_AhLOjQ7g)
 
 
-<p align="right">(<a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/blob/main/README.md">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
@@ -234,7 +224,6 @@ Communication, security, hygiene, child’s social growth, you name it and we’
 The project is open source and you are free to modify as per your needs. 
 
 
-<p align="right">(<a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/blob/main/README.md">back to top</a>)</p>
 
 
 
@@ -247,11 +236,6 @@ The project is open source and you are free to modify as per your needs.
 - [x] Implemented custom-written YoLoV3  and ResNet algorithms
 - [x] Created algorithms for navigation and complete-coverage vacuuming for the bot 
 - [ ] Hardware of the bot (awaiting funding for our innovative idea)
-
-
-See the [open issues](https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/blob/main/README.md">back to top</a>)</p>
 
 
 
@@ -269,4 +253,3 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin  branchName`)
 5. Open a Pull Request
 
-<p align="right">(<a href="https://github.com/harshmahesheka/Multi-Purpose-HouseHold-Bot/blob/main/README.md">back to top</a>)</p>
